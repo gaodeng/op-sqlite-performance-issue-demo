@@ -1,4 +1,22 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# op-sqlite Performance Demo
+
+This is a React Native project created to demonstrate and investigate the performance issue described in [op-sqlite issue #357](https://github.com/OP-Engineering/op-sqlite/issues/357).
+
+## Project Purpose
+
+This demo compares the performance between:
+- `@op-engineering/op-sqlite` (v15.0.7)
+- `react-native-sqlite-2` (v3.6.2)
+
+The app runs the same SQL query (`SELECT HEX('a') AS hex`) on both libraries and measures execution time to highlight performance differences.
+
+## Project Configuration
+
+- **New Architecture**: Enabled on both platforms
+- **Target**: Demonstrates the performance issue reported in op-sqlite #357
+- **Test Query**: `SELECT HEX('a') AS hex`
+
+This project was bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
