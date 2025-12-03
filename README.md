@@ -10,6 +10,10 @@ This demo compares the performance between:
 
 The app runs the same SQL query (`SELECT HEX('a') AS hex`) on both libraries and measures execution time to highlight performance differences.
 
+## Demo Screenshot
+
+![Performance Comparison Demo](screenshot.png)
+
 ## Project Configuration
 
 - **New Architecture**: Enabled on both platforms
